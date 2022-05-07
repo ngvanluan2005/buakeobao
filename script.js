@@ -7,7 +7,7 @@ gridBtn.map(btn => {
         event.target.classList.add('clicked')
         // console.log(luonWin(nguoichoira));
         luachon.innerHTML = `
-        <span style="font-size: 1.5rem">Ban da chon !</span>
+        <span style="font-size: .75rem">Ban da chon !</span>
         ${aiTurn(nguoichoira)}
         -----
         `
@@ -15,7 +15,7 @@ gridBtn.map(btn => {
             luachon.innerHTML = `
                 ${aiTurn(nguoichoira)}
                 <div class="tbao">
-                    <span style="font-size: 1.5rem; padding: 4px 0;">Ban thua !</span>
+                    <span style="font-size: .75rem; padding: 4px 0;">Ban thua !</span>
                     <button onclick="location.reload()">Choi Lai</button>
                 </div>
                 ${luonWin(nguoichoira)}
