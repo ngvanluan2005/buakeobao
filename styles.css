@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+}
+.wrapper{
+  margin: 0 auto;
+  max-width: 60%;
+  padding: 1rem;
+}
+.title{
+  text-align: center;
+  padding: .5rem 0 1rem;
+}
+.luachon {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3,1fr);
+}
+.luachon img{
+  width: 100%;
+  height: auto;
+  border-radius: 2rem;
+  cursor: pointer;
+  background-color: #fff;
+  border: 2px solid #0e9ad1;
+  transition: .25s ease;
+}
+.clicked, .luachon img:hover{
+  background-color: #d4f1ff;
+  box-shadow: 1px 1px 6px .25px #0e9ad1;
+}
+.luachon img{
+  border-radius: 2rem;
+}
+.diem{
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.diem{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.ketqua{
+  padding: 1rem 0;
+}
+.tbao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tbao button{
+  font-family: inherit;
+  background-color: #0e9ad1;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: .25rem .75rem;
+}
