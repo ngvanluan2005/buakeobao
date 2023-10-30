@@ -1,4 +1,4 @@
-
+const thongbao = alert('chao mung')
 const luachon = document.querySelector('.luachon')
 const gridBtn = [...document.querySelectorAll('.dapan')]
 gridBtn.map(btn => {
@@ -37,8 +37,8 @@ const aiTurn = (turn) => {
 
 const luonWin = peo => {
     const logic = peo == 'bua' ? 'bao'
-    : peo == 'keo' ? 'bua'
-    : peo == 'bao' ? 'keo' : 1
+        : peo == 'keo' ? 'bua'
+            : peo == 'bao' ? 'keo' : 1
     return aiTurn(logic)
 }
 window.addEventListener('load', () => {
